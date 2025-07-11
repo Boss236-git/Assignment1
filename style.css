@@ -1,7 +1,8 @@
-/* Style nav*/
+ /* Style nav*/
 body{
   margin: 0px;
   padding: 0px;
+  background-color:
 }
 
 
@@ -10,7 +11,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 50px 160px 50px 160px;
+    margin: 50px 170px 50px 170px;
 }
 /* Raleway font */
 .body-font {
@@ -67,6 +68,7 @@ ul li{
 
 .head{
   text-align: center;
+  margin: auto 32px;
 }
 
 .head-btn{
@@ -87,4 +89,121 @@ ul li{
    margin-top: -50px;
 }
 
+.action h2 {
+  width: 517px;
+  height: 49px;
+  font-weight: 700;
+  font-size: 42px;
+  color: #252432;
+}
+.action div{
+  width: 517px;
+  height: 60px;
+  font-weight: 400;
+  font-size: 24px;
+  color: rgba(37, 36, 50, 0.5);
+}
 
+.action-btn{
+ width: 200px;
+ height: 48px;
+ margin-top: 25px;
+ 
+}
+.action{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 116px;
+}
+
+.action img{
+  width: 400px;
+  height: 320px;
+  border-radius: 48px;
+}
+
+.main-content{
+  display: flex;
+  gap: 120px;
+  justify-content: center;
+   align-items: center;
+ 
+}
+
+.frame-container{
+  text-align: center;
+  background-color: rgba(78, 71, 255, 0.1);
+  width: 850px;
+  height: 240px;
+  border-radius: 24px;
+  margin: 95px auto 20px auto;
+  padding: 25px ;
+}
+
+.frame-container p{
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.size-number{
+font-weight: 700;
+font-size: 70px;
+color: #4E47FF;
+}
+
+.frame-container p{
+  margin-top: -60px;
+}
+
+.frame-container h2{
+  margin-bottom: -30px;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.fd{
+  display: flex;
+  gap: 30px;
+  width: 995px;
+  margin: 95px auto 20px auto;
+  height: 240px;
+  
+}
+
+.feedback{
+  padding: 30px;
+  box-shadow: 0px 6px 50px 0px rgba(242, 237, 237, 1);
+  border-radius: 14px;
+  
+}
+
+.review{
+  display: flex;
+  gap:9px;
+}
+
+.review-nam h4{
+  margin-bottom:-14px ;
+}
+
+.review img{
+  width: 40px;
+  border-radius: 50px;
+  height:40px ;
+  
+}
+
+.review-nam{
+  margin-top: -20px;
+}
+
+.fr h2{
+  text-align: center;
+  margin: 90px auto -40px auto;
+  font-weight: bold;
+  font-size: 42px;
+
+}
+
+.review-nam p{
+  color: rgba(0, 0, 0, 0.4);
+}
